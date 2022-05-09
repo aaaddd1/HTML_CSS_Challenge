@@ -1,0 +1,84 @@
+*{
+    color:rgb(97, 93, 93);
+}
+
+body{
+    background-color: rgb(231, 225, 225);
+}
+
+header{
+    background-image: url(/PreWork/HTML_CSS_Challenge/pf.jpg);
+    border: solid white;
+    border-radius: 8px;
+    border-style: outset;
+    height: 20%;
+}
+
+.zen{
+    padding-left: 4%;
+}
+
+.heading-p{
+   margin-top: -25px;
+   padding-left: 2%;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 10px;
+    
+}
+
+.ul-padding {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.separator{
+        width: 70%;
+}
+    
+    ul.separator li {
+        padding: .5em 0;
+        border-bottom: 1px solid #CCC;
+    }
+
+
+ul li::marker{
+    content: ">";
+    color:rgb(231, 96, 218);
+}
+
+ul li{
+    color:rgb(231, 96, 218);
+    font-weight: bold;
+    
+}
+
+.box{
+    border: solid wheat;
+    border-radius: 8px;
+    border-style: outset;
+    margin-top: 10px;
+    background-color: white;
+}
+
+a {
+    color:rgb(231, 96, 218);
+}
+
+.para-space{
+    padding-left: 10%;
+    padding-right: 1%;
+}
+
+.less-space{
+    padding-left: 1%;
+    padding-right: 10%;
+}
+
+
+
+  
